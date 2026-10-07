@@ -1,0 +1,29 @@
+/* Architectural asterisk accents: built from CSS lines instead of text glyphs. */
+.about-panel:after,
+.about-profile-card:after{
+  content:"";
+  width:220px;
+  height:220px;
+  font-size:0;
+  background:
+    linear-gradient(0deg,transparent 48.5%,currentColor 49.5% 50.5%,transparent 51.5%),
+    linear-gradient(60deg,transparent 48.5%,currentColor 49.5% 50.5%,transparent 51.5%),
+    linear-gradient(120deg,transparent 48.5%,currentColor 49.5% 50.5%,transparent 51.5%);
+  mask:radial-gradient(circle,#000 0 68%,transparent 69%);
+  -webkit-mask:radial-gradient(circle,#000 0 68%,transparent 69%);
+  transform:rotate(14deg);
+}
+.about-panel:after{color:#fff;opacity:.3}
+.about-profile-card:after{color:#ffffff;opacity:.08}
+.decorative-asterisk{
+  display:inline-block;
+  width:11px;
+  height:11px;
+  margin-left:6px;
+  vertical-align:-1px;
+  background:linear-gradient(0deg,transparent 44%,#dca05a 45% 55%,transparent 56%),linear-gradient(60deg,transparent 44%,#dca05a 45% 55%,transparent 56%),linear-gradient(120deg,transparent 44%,#dca05a 45% 55%,transparent 56%);
+  border-radius:50%;
+}
+@media(max-width:650px){
+  .about-panel:after,.about-profile-card:after{width:150px;height:150px}
+}
