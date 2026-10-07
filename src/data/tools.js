@@ -1,0 +1,3 @@
+export const tools = [
+  ['Canva', 'Design & visual content', 'Canva', 'canva'], ['Meta Business Suite', 'Social media management', 'Meta Business Suite', 'meta'], ['Slack', 'Team communication', 'Slack', 'slack'], ['Gmail', 'Email communication', 'Gmail', 'gmail'], ['Google Docs', 'Documentation', 'Google Docs', 'docs'], ['Google Sheets', 'Data & organization', 'Google Sheets', 'sheets'], ['Facebook', 'Social media management', 'Facebook', 'facebook'], ['TikTok', 'Short-form content', 'TikTok', 'tiktok'], ['Instagram', 'Content & community', 'Instagram', 'instagram'], ['Shopify', 'E-commerce support', 'Shopify', 'shopify'],
+].map(([name, description, mark, brand]) => ({ name, description, mark, brand }))

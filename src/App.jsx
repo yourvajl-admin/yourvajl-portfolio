@@ -1,0 +1,13 @@
+import { useEffect } from 'react'
+import Sidebar from './components/Sidebar.jsx'
+import Navbar from './components/Navbar.jsx'
+import Hero from './components/Hero.jsx'
+import Projects from './components/Projects.jsx'
+import Services from './components/Services.jsx'
+import Tools from './components/Tools.jsx'
+import Workflow from './components/Workflow.jsx'
+import Contact from './components/Contact.jsx'
+import Footer from './components/Footer.jsx'
+import AboutPage from './components/AboutPage.jsx'
+import Intro from './components/Intro.jsx'
+export default function App(){useEffect(()=>{document.title='John Lloyd Laxamana — Virtual Assistant';const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');obs.unobserve(e.target)}}),{threshold:.09});document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));return()=>obs.disconnect()},[]);return <><Intro/><Sidebar/><main className="main"><Navbar/><Hero/><Projects/><Services/><Tools/><AboutPage/><Workflow/><Contact/><Footer/></main></>}

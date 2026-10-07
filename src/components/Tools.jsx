@@ -1,0 +1,4 @@
+import { tools } from '../data/tools'
+import BrandLogo from './BrandLogo'
+import LogoMarquee from './LogoMarquee'
+export default function Tools(){return <section id="tools" className="section-shell content-section tools-section reveal"><div className="tools-intro"><div className="eyebrow"><span/> MY DAILY TOOLKIT</div><h2>Good tools. Thoughtful<br/>work. Better flow.</h2><p>A familiar toolkit for keeping communication clear, content on track, and the details organized.</p><span className="tool-count">10 TOOLS I KNOW & USE</span></div><div className="tools-area"><LogoMarquee/><div className="tools-grid">{tools.map((t,i)=><article className="tool-card" key={t.name} style={{'--i':i}}><BrandLogo brand={t.brand} className="tool-mark"/><div><h3>{t.name}</h3><p>{t.description}</p></div><span className="tool-arrow">↗</span></article>)}</div></div></section>}

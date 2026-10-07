@@ -1,0 +1,27 @@
+.preview-enrollment{padding:0;background:#f1f3ec;color:#102f34}
+.enrollment-deck{height:100%;display:grid;grid-template-columns:38px 1fr;background:linear-gradient(135deg,#f8f6ed 0%,#f4f2e8 60%,#e9f0e9 100%)}
+.enrollment-rail{display:flex;flex-direction:column;align-items:center;gap:13px;padding:12px 0;background:#0c3438}
+.enroll-monogram{width:21px;height:21px;display:grid;place-items:center;border-radius:7px;background:#f6a52a;color:#0c3438;font:800 11px var(--serif)}
+.enrollment-rail i{width:7px;height:7px;border:1px solid #9ab2a9;border-radius:50%;opacity:.7}
+.enrollment-rail i.rail-active{width:18px;height:5px;border:0;border-radius:8px;background:#f7931e;opacity:1}
+.enrollment-main{padding:13px 15px 10px;min-width:0}
+.enroll-topline{display:flex;justify-content:space-between;align-items:center;color:#5d7775;font-size:6px;font-weight:800;letter-spacing:1px}
+.enroll-status{display:flex;align-items:center;gap:4px;padding:4px 6px;border-radius:20px;background:#fff;font-size:5px;letter-spacing:.4px;color:#506d65}
+.enroll-status i{width:5px;height:5px;border-radius:50%;background:#50a67b}
+.enrollment-main h4{font:800 20px/.99 var(--serif);letter-spacing:-.8px;margin:9px 0 5px;color:#0b3035}
+.enrollment-main>p{font-size:7px;color:#71817c;margin:0;max-width:250px}
+.enroll-progress{margin-top:10px;padding:8px 9px 7px;border:1px solid #e7e6d9;border-radius:9px;background:#fffdf8}
+.enroll-progress>span{font-size:5px;font-weight:800;letter-spacing:.8px;color:#9a784d}
+.enroll-progress>div{display:flex;gap:4px;margin-top:6px}
+.enroll-progress>div i{height:3px;flex:1;border-radius:5px;background:#e6e8df}
+.enroll-progress>div i:first-child,.enroll-progress>div i:nth-child(2){background:#e9a13c}
+.enroll-progress small{display:block;margin-top:5px;font-size:5px;color:#73817d;white-space:nowrap}
+.enroll-progress small b{padding:0 4px;color:#d49a4f}
+.enroll-bottom{display:grid;grid-template-columns:1fr 1fr 1.35fr;gap:6px;margin-top:7px}
+.enroll-bottom>div{display:flex;align-items:center;gap:5px;padding:6px;border-radius:7px;background:#fff;border:1px solid #ebeae2}
+.enroll-bottom>div>b{font:800 10px var(--serif);color:#e99521}
+.enroll-bottom>div>span{font-size:5px;line-height:1.35;letter-spacing:.25px;color:#607571;font-weight:700}
+.enroll-bottom .enroll-social{background:#0f4849;border-color:#0f4849}
+.enroll-bottom .enroll-social>b{color:#ffc04a}
+.enroll-bottom .enroll-social>span{color:#e6eee8}
+@media(max-width:650px){.enrollment-main{padding:14px 17px 11px}.enrollment-main h4{font-size:24px}.enrollment-main>p{font-size:8px}.enroll-progress small{font-size:6px}.enroll-bottom>div>span{font-size:6px}}

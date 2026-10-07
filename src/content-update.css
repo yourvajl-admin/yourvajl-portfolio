@@ -1,0 +1,55 @@
+.project-client{display:flex;align-items:center;gap:8px;min-width:0;font-size:9px;font-weight:700;color:#405a5a;line-height:1.15}
+.project-client-initials,.project-client-logo{width:21px;height:21px;border-radius:7px;flex:none;display:grid;place-items:center;background:#e7efea;color:#15504c;font:800 9px var(--serif);letter-spacing:-.5px}
+.project-client-image{width:28px;height:28px;padding:2px;object-fit:contain;background:#fff;border:1px solid #ebe8df;border-radius:8px;flex:none}
+.project-client-logo{padding:4px;background:#edf4e8;color:#78a747}
+.project-category{margin:0 3px 4px;font-size:6px;letter-spacing:.8px;color:#d77c0c;font-weight:700}
+.project-category{margin:0 4px 5px;font-size:8px;letter-spacing:.8px;color:#d77c0c;font-weight:700}
+.project-date{margin:0 4px 9px;color:#9a8d77;font-size:9px;font-weight:600}
+.main>#projects .project-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.main>#projects .project-card{grid-column:auto}
+.main>#projects .project-card h3{font-size:15px;line-height:1.3}
+.main>#projects .project-card>p{min-height:36px}
+.tag-row .project-tool-tag{display:inline-flex;align-items:center;gap:4px;padding:4px 6px;color:#5b7371;background:#fbfaf5;font-size:6px;white-space:nowrap}
+.project-tool-tag>.brand-logo{width:10px;height:10px;font-size:10px;padding:0;border-radius:2px;background:transparent}
+.project-tool-tag>.brand-logo.brand-slack{width:10px;height:10px}
+.project-tool-tag>b{width:10px;height:10px;border-radius:50%;background:#eee9df;color:#77847e;display:grid;place-items:center;font-size:7px;line-height:1}
+.project-modal .project-client-initials{display:inline-grid;vertical-align:middle;margin-right:7px}
+.modal-project-brand{display:flex;align-items:center;gap:12px}
+.modal-project-brand>.project-client-image{width:46px;height:46px;border-radius:12px;padding:3px}
+.modal-project-brand .modal-copy h2{margin:8px 0 0}
+.project-modal{width:min(880px,100%);max-height:calc(100vh - 48px);overflow-y:auto;overscroll-behavior:contain}
+.project-gallery{padding:2px 13px 16px}
+.gallery-heading{display:flex;align-items:center;justify-content:space-between;margin:0 0 11px}
+.gallery-heading h3{font:700 15px var(--serif);margin:0;color:#102d33}
+.gallery-heading>span{font-size:7px;letter-spacing:1px;color:#a77c4c;font-weight:700}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px}
+.gallery-grid figure{margin:0;min-width:0;border:1px solid #e8e7df;border-radius:10px;overflow:hidden;background:#f1f2ed}
+.gallery-grid img{display:block;width:100%;height:190px;object-fit:contain;background:#f1f2ed}
+.gallery-grid figcaption{padding:7px 9px;background:#fffefa;font-size:8px;color:#77827f}
+.project-modal .project-tool-tag{font-size:8px;padding:6px 8px}
+.project-modal .project-tool-tag>.brand-logo{width:12px;height:12px;font-size:12px}
+.about-contact-link[href^="mailto"]{color:#a85e0b}
+.main>#projects .project-card{padding:11px 11px 16px}
+.main>#projects .preview{height:190px}
+.main>#projects .project-meta{margin:11px 4px 7px}
+.main>#projects .project-meta>i{width:29px;height:29px;background:#0b353a;color:#fff;border:0}
+.main>#projects .project-tool-tag{font-size:8px;padding:6px 8px}
+.main>#projects .project-tool-tag>.brand-logo{width:12px;height:12px;font-size:12px}
+.contact-card-email-only{display:block;max-width:760px;margin-inline:auto;padding:35px 38px}
+.contact-card-email-only .contact-copy{padding:0}
+.contact-card-email-only .contact-copy>p{max-width:520px}
+.contact-card-email-only .email-link{display:inline-flex;margin-top:18px;padding:12px 16px;border:1px solid #e4e7dd;border-radius:30px;background:#fffefa;font-size:12px}
+.contact-card-email-only .email-link>span{width:32px;height:32px}
+.identity .identity-name{display:flex;align-items:center;gap:5px;white-space:nowrap;font-size:clamp(13px,1.18vw,17px);letter-spacing:-.8px;line-height:1.1}
+.identity-name .verified-badge{flex:none;color:#fff;fill:#1877f2;stroke:#fff;stroke-width:2.2}
+.identity>p{white-space:nowrap}
+.avatar{isolation:isolate}
+.avatar>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 38%;z-index:1}
+.avatar>span{position:relative;z-index:0}
+.avatar>i{z-index:2}
+.about-profile-mark{overflow:hidden}
+.about-profile-mark>img{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);object-fit:cover;object-position:center 38%;border-radius:50%;z-index:1}
+.about-profile-mark>span{position:relative;z-index:0}
+@media(max-width:980px){.main>#projects .project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.main>#projects .preview{height:160px}}
+@media(max-width:650px){.main>#projects .project-grid{grid-template-columns:1fr}.main>#projects .project-card>p{min-height:0}.main>#projects .project-client{font-size:8px}.project-client-initials,.project-client-logo{width:19px;height:19px;font-size:8px}.main>#projects .preview{height:185px}.contact-card-email-only{padding:24px 18px}.contact-card-email-only .contact-copy h2{font-size:39px}.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:7px}.gallery-grid img{height:130px}.project-gallery{padding-inline:7px}.project-modal>.preview{height:185px}}
+.hero .brand-logo{filter:none}

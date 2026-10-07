@@ -1,0 +1,40 @@
+.brand-logo{display:inline-flex;align-items:center;justify-content:center;flex:none}
+.brand-logo svg{width:100%;height:100%;display:block}
+.brand-logo img{width:100%;height:100%;display:block;object-fit:contain}
+.brand-canva{background:linear-gradient(140deg,#23c4cc,#5276e8 50%,#9054d6);color:#fff;border-radius:50%;font-family:Arial,sans-serif;font-style:italic;font-weight:500}
+.brand-canva b{font-size:.87em;line-height:1;transform:translateY(-.03em)}
+.brand-meta{color:#0866ff}
+.brand-slack{color:#611f69}
+.brand-gmail{color:#ea4335}
+.brand-docs{color:#4285f4}
+.brand-sheets{color:#188038}
+.brand-facebook{color:#1877f2}
+.brand-tiktok{color:#111}
+.brand-instagram{color:#d84b83}
+.brand-shopify{color:#78a747}
+.brand-canva img{filter:brightness(0) invert(1)}
+.logo-marquee{width:100%;overflow:hidden;border:1px solid #e8e9e2;border-radius:13px;background:#fff;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+.logo-marquee-track{display:flex;width:max-content;animation:logo-scroll 34s linear infinite}
+.logo-marquee:hover .logo-marquee-track{animation-play-state:paused}
+.logo-marquee-set{display:flex;align-items:center;flex:none;gap:0}
+.marquee-brand{display:inline-flex;align-items:center;gap:8px;white-space:nowrap;padding:12px 15px;border-right:1px solid #f0f0eb;color:#72808a;font-size:9px;font-weight:600}
+.marquee-brand .brand-logo{width:17px;height:17px;font-size:17px}
+.marquee-brand .brand-slack{width:17px;height:17px}
+.logo-marquee-compact{width:min(100%,500px);margin:18px 0 0;border-radius:10px}
+.logo-marquee-compact .marquee-brand{padding:8px 11px;font-size:8px}
+.logo-marquee-compact .marquee-brand .brand-logo{width:14px;height:14px;font-size:14px}
+.tools-area{display:grid;gap:12px;min-width:0}
+.tool-mark.brand-logo{width:35px;height:35px;border-radius:11px;padding:8px;background-color:#f3f4f1;font-size:19px}
+.tool-mark.brand-canva{padding:7px;border-radius:50%;font-size:17px}
+.tool-mark.brand-slack{background:#f3f4f1;padding:8px}
+.tool-mark.brand-meta{background:#e8f0ff}
+.tool-mark.brand-gmail{background:#fcece9;color:#ea4335}
+.tool-mark.brand-docs{background:#eaf1fc;color:#4285f4}
+.tool-mark.brand-sheets{background:#e8f3eb;color:#188038}
+.tool-mark.brand-facebook{background:#eaf0fc;color:#1877f2}
+.tool-mark.brand-tiktok{background:#f0f0f0;color:#111}
+.tool-mark.brand-instagram{background:#faeaf1;color:#d64d83}
+.tool-mark.brand-shopify{background:#edf4e8;color:#78a747}
+@keyframes logo-scroll{to{transform:translateX(-50%)}}
+@media(max-width:650px){.tools-area{margin-top:23px}.logo-marquee-compact{margin-top:15px}.marquee-brand{padding:10px 12px}.tool-mark.brand-logo{width:31px;height:31px;padding:7px}.tool-mark.brand-canva{padding:6px}.logo-marquee-track{animation-duration:28s}}
+@media(prefers-reduced-motion:reduce){.logo-marquee-track{animation:none}.logo-marquee-set[aria-hidden="true"]{display:none}}

@@ -1,0 +1,1 @@
+export default function Navbar(){return <div className="top-note"><span className="note-dot"/> Thoughtful remote support, built around your workflow <a href="/#contact">Let’s talk <span>↗</span></a></div>}
