@@ -9,4 +9,5 @@ import './content-update.css'
 import './project-decks.css'
 import './intro.css'
 import './about-shapes.css'
+import './theme.css'
 createRoot(document.getElementById('root')).render(<React.StrictMode><App /></React.StrictMode>)
