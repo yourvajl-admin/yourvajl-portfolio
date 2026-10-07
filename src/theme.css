@@ -64,6 +64,104 @@ body{background:var(--cream);color:var(--navy)}
 .intro-screen{background:#f5f1e7;color:#171613;--intro-teal:#25231f;--intro-teal-light:#756f65;--intro-orange:#e99b08;--intro-gold:#f6bd35}
 .intro-wordmark{color:#171613;text-shadow:0 1px 0 #fffdf8,0 3px 0 #e6dfd1,0 6px 0 #d9d0bf,0 13px 24px #31281720}
 .intro-brand-corner{color:#706a60}
+/* Use the same warm neutral surfaces and orange accents throughout the work sections. */
+.project-card,.service-card,.tool-card,.testimonial-card{
+  background:#fffdf8;border-color:#e6dfd1;color:#211f1a;
+  box-shadow:0 6px 18px #29231a0a
+}
+.project-card:hover,.service-card:hover,.tool-card:hover{
+  border-color:#d9bd83;box-shadow:0 14px 30px #3b2c1512
+}
+.project-card h3,.service-card h3,.tool-card h3,.testimonial-card h3{color:#211f1a}
+.project-card>p,.service-card li,.tool-card p,.project-footnote{color:#756f65}
+.project-category,.eyebrow{color:#bd7900}
+.project-date{color:#8e8069}
+.project-meta>i{border-color:#e6dfd1;color:#685f50}
+.project-card:hover .project-meta>i{background:#201e1a;color:#fff}
+.tag-row span,.project-tool-tag{background:#f8f4eb;border-color:#e8e0d2;color:#625b50}
+.preview,.preview-admin,.preview-support,.preview-shopify,.preview-content,.preview-workflow,.preview-enrollment{
+  background:#f2ede2;color:#29261f
+}
+.preview-appbar,.preview-appbar b,.inbox-head,.inbox-head b,.flow-head b{color:#71695b}
+.calendar-labels,.calendar-item>b,.calendar-item small{color:#8c8374}
+.calendar-item,.doc-top,.doc-body,.inbox-stats>div,.shop-metrics>div,.order-list,
+.flow-step,.enroll-progress,.enroll-bottom>div{background:#fffdf8;border-color:#e8e0d2}
+.color-0,.color-1,.color-2,.color-3,.color-4{background:#f2e6ce;color:#b97808}
+.doc-top>span,.doc-task svg{color:#c78309}
+.doc-top button{background:#e99b08;color:#211f1a}
+.doc-sidebar{border-color:#eee8dd}
+.doc-sidebar i,.doc-line{background:#eee8dd}
+.doc-task{color:#5f594e}
+.doc-task svg{background:#fff0d5}
+.doc-task small,.inbox-stats b i,.shop-metrics b i,.status-done{color:#8d7960}
+.inbox-stats small,.shop-metrics small,.order-list>span{color:#928979}
+.inbox-stats b,.shop-metrics b{color:#27241f}
+.message-row{border-color:#e9e2d6}
+.initial,.initial.peach,.initial.blue{background:#f5e8d0;color:#9d6c16}
+.message-row div small,.message-row em{color:#898173}
+.shop-bag{background:#25231f;color:#fff}
+.live-pill{background:#f7edda;color:#856624}
+.order-list>div{border-color:#eee8dd;color:#504a40}
+.status-new{color:#bc7900}
+.post-one{background:#eee2c8;color:#30291d}
+.post-two{background:#f5ebd8;color:#453825}
+.post-three{background:#e9dfce;color:#393227}
+.flow-head span,.flow-step>span{color:#ba7907}
+.flow-step{border-color:#e8e0d2}
+.flow-step>b{color:#322e26}
+.flow-step>small,.flow-foot{color:#857b6b}
+.flow-step>i,.flow-foot{border-color:#e8e0d2}
+.flow-step>i{background:#d9cdb8}
+.flow-foot span{color:#c4850b}
+.enrollment-rail{background:#211f1a}
+.enroll-monogram{background:#efa80e;color:#211f1a}
+.enrollment-deck{background:linear-gradient(135deg,#faf7ef 0%,#f4efe3 65%,#eee4d1 100%)}
+.enroll-topline,.enroll-status{color:#71685a}
+.enroll-status{background:#fffdf8}
+.enrollment-main h4{color:#211f1a}
+.enrollment-main>p,.enroll-bottom>div>span{color:#756e62}
+.enroll-progress{border-color:#e8e0d2}
+.enroll-progress>span{color:#a76c00}
+.enroll-progress>div i{background:#eae4d9}
+.enroll-progress>div i:first-child,.enroll-progress>div i:nth-child(2){background:#e99b08}
+.enroll-progress small{color:#756e62}
+.enroll-progress small b{color:#cf8500}
+.enroll-bottom>div>b{color:#cf8500}
+.enroll-bottom .enroll-social{background:#302d27;border-color:#302d27}
+.enroll-bottom .enroll-social>b{color:#f6bd35}
+.enroll-bottom .enroll-social>span{color:#f4efe4}
+.service-card li:before{background:#e99b08}
+.service-icon{background:#fff0d5;color:#c27b00}
+.tool-mark.brand-logo{box-shadow:inset 0 0 0 1px #e9e2d6}
+.skills-card,.resume-main,.resume-side>section,.contact-form,.contact-card,.project-modal{
+  background:#fffdf8;border-color:#e6dfd1
+}
+.skills-card{box-shadow:0 8px 22px #29231a0b}
+.skills-heading>span,.about-section-title>span,.form-heading>span{background:#fff0d5;color:#c47a00}
+.skills-list>div>span{background:#f7ecd8;color:#b97700}
+.about-service{background:#fffdf8;border-color:#e8e0d2}
+.about-tool-chips span{background:#f6f1e6;border-color:#e6dfd1;color:#665f53}
+.about-contact-link,.text-link span,.email-link>span,.footer-email svg{color:#bd7900}
+.profile-contact a{border-color:#ffffff40}
+.email-link{background:#fffdf8;border-color:#e6dfd1;color:#26231e}
+.contact-copy h2,.contact-form h3,.form-heading b{color:#211f1a}
+.contact-copy>p,.contact-form label,.form-note{color:#756f65}
+.contact-card{background:linear-gradient(135deg,#efe8d9,#f9f6ee);border-color:#e5ddcf}
+.contact-form input,.contact-form textarea{background:#fcfaf5;border-color:#e6dfd1;color:#211f1a}
+.contact-form input:focus,.contact-form textarea:focus{border-color:#d99a1a}
+.send-button{background:#201e1a;color:#fff}
+.send-button:hover{background:#3a352b}
+.timeline{border-color:#e3dac9}
+.timeline-step h3{color:#28251f}
+.timeline-step p,.workflow-title>p{color:#756f65}
+.step-top>span{color:#b97800}
+.step-top>i{background:#d9cdb8}
+.workflow-note>span{background:#fff0d5;color:#bd7900}
+.footer{border-color:#e6dfd1}
+.footer-email,.footer-brand>a{color:#211f1a}
+.footer-brand p,.footer-bottom{color:#81796d}
+.testimonial-card blockquote{color:#5f594e}
+.quote-icon,.sample-chip{background:#fff0d5;color:#bd7900}
 @media(max-width:650px){
   .hero:before{background:linear-gradient(145deg,#e8dfcd,#f1eadb);opacity:.72}
   .hero-photo-wash{background:linear-gradient(90deg,#f5f1e7aa,transparent 90%),linear-gradient(0deg,#f5f1e744,transparent)}
