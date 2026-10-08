@@ -160,6 +160,9 @@ body{background:var(--cream);color:var(--navy)}
 .footer{border-color:#e6dfd1}
 .footer-email,.footer-brand>a{color:#211f1a}
 .footer-brand p,.footer-bottom{color:#81796d}
+.mobile-brand{display:inline-flex;align-items:center;gap:8px;color:#211f1a}
+.mobile-brand img{width:25px;height:25px;display:block;border-radius:8px}
+.mobile-brand span{font:800 15px/1 'Manrope',sans-serif;letter-spacing:-.6px}
 .testimonial-card blockquote{color:#5f594e}
 .quote-icon,.sample-chip{background:#fff0d5;color:#bd7900}
 @media(max-width:650px){
